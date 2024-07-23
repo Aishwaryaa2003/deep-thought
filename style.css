@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+}
+
+.journey-board {
+    background: #fff;
+    padding: 20px;
+    width: 20%;
+    border-right: 1px solid #ddd;
+}
+
+.journey-board h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.journey-board ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.journey-board ul ul {
+    padding-left: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    width: 60%;
+}
+
+.main-content h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.submit-task {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section {
+    background: #fff;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #ddd;
+}
+
+.section h3 {
+    margin-top: 0;
+}
+
+.thread .sub-thread,
+.thread .summary {
+    margin-top: 10px;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+
+.notice-board {
+    background: #fff;
+    padding: 20px;
+    width: 20%;
+    border-left: 1px solid #ddd;
+}
+
+.notice-board h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
